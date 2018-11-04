@@ -6,7 +6,7 @@ import { Router } from "@angular/router";
   selector: "app-heroes",
   templateUrl: "./heroes.component.html"
 })
-export class HeroesComponent implements OnInit {
+export class ProductosComponent implements OnInit {
   heroes: Heroe[] = []; // creo una variable de arreglos de heroes
 
   // el constructor se ejecuta antes que el ngOnInit
@@ -19,7 +19,7 @@ export class HeroesComponent implements OnInit {
     //console.log( this.heroes );
   }
 
-  verHeroe(idx: number) {
-    this.router.navigate(["/heroe", idx]);
+  verProducto(idx: number) {
+    this.router.navigate(["/productos", idx]);
   }
 }
