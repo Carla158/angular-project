@@ -5,21 +5,21 @@ export class HeroesService {
   // propiedad privada para que no puede ser accesada fuera de la  claseo servicio
   private heroes: Heroe[] = [
     {
-      nombre: "Hamburgesa completa",
-      desc: "Hamburgesa completa bla bla",
+      nombre: "Hamburguesa completa",
+      desc: "Hamburgesa completa: carne, queso, lechuga, tomate, huevo y jamon",
       img: "assets/img/hamburgesa-completa.png",
-      precio: "200$"
+      precio: "$90"
     },
     {
-      nombre: "Hamburgesa con queso",
+      nombre: "Hamburguesa con queso",
       desc: "Hamburgesa doble con queso",
       img: "assets/img/hamburgesa-con-queso.png",
-      precio: "$180"
+      precio: "$70"
     },
     {
-      nombre: "Combo Tostado",
+      nombre: "Papas fritas",
       desc: "Papas crujientes y deliciosas",
-      img: "assets/img/Tostado-jyq-y-cafe_0.png",
+      img: "assets/img/papas.png",
       precio: "$80"
     }
   ];
